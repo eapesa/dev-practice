@@ -1,4 +1,7 @@
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 # Created by https://www.gitignore.io/api/python
 # Edit at https://www.gitignore.io/?templates=python
 
@@ -123,4 +126,8 @@ dmypy.json
 ### Python Patch ###
 .venv/
 
+<<<<<<< Updated upstream
 # End of https://www.gitignore.io/api/python
+=======
+# End of https://www.gitignore.io/api/python
+>>>>>>> Stashed changes
