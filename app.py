@@ -8,7 +8,7 @@ app = Flask(__name__)
 def index():
     return "This is my homepage"
 
-user_list = []
+user_list = [{"id":"1","name":"Raleine"}]
 # GET http://localhost:5000/v1/users/id?param=name
 @app.route("/v1/users/<id>", methods=["GET"])
 def users(id):
@@ -25,5 +25,3 @@ def users(id):
           return "User details `{}`: {}".format(param, data)
   return "User not found"
 
-
-  
