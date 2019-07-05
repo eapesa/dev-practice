@@ -1,9 +1,13 @@
 def get(n):
-	return n
 
 def main():
-	print('HELLO WORLD!')	
+	
+	if n <= 0:
+	print("Please enter a positive integer")
+	
+	else:
+	print('Fibonacci Sequence:')	
+		print(get(n))
+	
 
-if __name__ == '__main__':
-	main()
 
