@@ -17,5 +17,6 @@ def get(n):
 def main():
 	print(get(7))	
 
-
-
+if __name__ == '__main__':
+    # execute only if run as the entry point into the program
+    main()
